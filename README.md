@@ -33,3 +33,12 @@ def timeago(time, options = {})
 end
 ```
 
+```
+<script src="jquery.min.js" type="text/javascript"></srcipt>
+<script src="jquery.timeago.js" type="text/javascript"></script>
+
+<time class="timeago" datetime="2011-12-17T09:24:17Z">December 17, 2011</time>
+<time class="timeago" datetime="2011-12-17T09:24:17Z" title="December 17, 2011">about 1 day ago</time>
+<abbr class="timeago" title="2011-12-17T09:24:17Z">December 17, 2011</abbr>
+
+```
